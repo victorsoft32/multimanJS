@@ -7,7 +7,7 @@ let memoryAddress = [
   ];//ram bytes
 const hardDiskSize = 20000;//harddisk size 20GB
 
-class buildInternalCpu{
+export default class buildInternalCpu{
   constructor(){
     this.memoryAddr = memoryAddress;
     this.harddiskSize = hardDiskSize;
@@ -53,5 +53,13 @@ class buildInternalCpu{
 
 
 let addr = new buildInternalCpu();
+
+console.log("%c=====================================================================", "color:red;");
+console.log("%c======================INSTALLED MEMORY===============================", "color:red;");
+console.log("%c=====================================================================", "color:red;");
+
+
+
 console.log("Memory Installed: "+addr.checkRam()/2000);
 console.log("Hard disk Installed: " +addr.checkHardDisk()+"MB");
+

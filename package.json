@@ -1,0 +1,19 @@
+{
+    "name" : "MultimanJS",
+    "developer" : "Victorsoft32",
+    "url" : "https://github.com/victorsoft32",
+    "version" : "1.0.1",
+    "email" : "weetinc6@gmail.com",
+    "open-source" : "yes",
+    "storage_access" : "c:/Program Files/",
+    "startPath" : "index.html",
+    "gamePathInstall" : [
+        {
+        "pathfolder" : "games",
+        "pathfolderIcon" : "gm" 
+        }
+    ]
+    
+
+
+}

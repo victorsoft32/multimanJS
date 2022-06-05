@@ -1,0 +1,18 @@
+{
+    "packageType" : "chrome-vm",
+    "version" : "1.0.1",
+    "browsers-on" : [
+        {
+        "firefox" : "yes",
+        "chrome" : "yes",
+        "safari" : "yes",
+        "opera" : "yes"
+
+
+    }
+],
+
+    "directInstall" : "no",
+    "engineEntity" : "yes",
+    "os-support" : "yes"
+}
